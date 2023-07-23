@@ -1,0 +1,27 @@
+<div class="bodyChatTotal">
+    <div class="my-chatGPT">
+        <div class="container ">
+            <div class="card card-header">
+                <div class="card-header textAITitle col-12 col-6 mt-4">
+                    <h1>alex Chatbot</h1><span class="subtitleItalic">This is an AI assistant that is
+                        powered by
+                        ChatGPT
+                        model to deliver any AI-powered search, conversation, text completionand other advanced AI
+                        features.</span>
+                </div>
+                <div class="card-body mt-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 response">
+                            </div>
+                        </div>
+                    </div>
+                    <input [(ngModel)]="message" type="text" class="form-control my-input" name="messages"
+                        placeholder="Ask me anything...">
+                    <button class="btn btn-outline-primary marginBtns" (click)="sendMessage()">Submit</button>
+                    <button class="btn btn-outline-danger marginBtns" (click)="clearMessage()">Clear</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
